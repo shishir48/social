@@ -1,0 +1,20 @@
+{
+  "name": "social",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "env-cmd nodemon src/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "env-cmd": "^10.1.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.10.5"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
